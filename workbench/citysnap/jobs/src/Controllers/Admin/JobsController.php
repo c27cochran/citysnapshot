@@ -15,6 +15,16 @@ class JobsController extends AdminController {
 		return View::make('citysnap/jobs::index');
 	}
 
+    /**
+     * Return the jobs view for linked in api.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function linkedinAPI()
+    {
+        return View::make('citysnap/jobs::linkedin');
+    }
+
     public function listJobTitles()
     {
         $categoryNumber = $_GET['jc'];

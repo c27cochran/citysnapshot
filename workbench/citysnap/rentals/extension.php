@@ -15,7 +15,7 @@ return [
 	|
 	*/
 
-	'name' => 'Jobs',
+	'name' => 'Rentals',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,7 +30,7 @@ return [
 	|
 	*/
 
-	'slug' => 'citysnap/jobs',
+	'slug' => 'citysnap/rentals',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ return [
 	|
 	*/
 
-	'description' => 'Job Listings',
+	'description' => 'Home and Apartment Rentals',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -169,25 +169,19 @@ return [
 
     'routes' => function(ExtensionInterface $extension, Application $app)
         {
-            Route::group(['namespace' => 'Citysnap\Jobs\Controllers\Admin'], function()
+            Route::group(['namespace' => 'Citysnap\Rentals\Controllers\Admin'], function()
             {
-                Route::group(['prefix' => admin_uri().'/jobs'], function()
+                Route::group(['prefix' => admin_uri().'/rentals'], function()
                 {
-                    Route::get('/', 'JobsController@index');
-                    Route::get('job-titles', 'JobsController@listJobTitles');
-                    Route::get('job-stats', 'JobsController@listJobTitleStats');
-                    Route::get('employer-data', 'JobsController@getEmployerData');
+                    Route::get('/', 'RentalsController@index');
                 });
             });
 
-            Route::group(['namespace' => 'Citysnap\Jobs\Controllers\Frontend'], function()
+            Route::group(['namespace' => 'Citysnap\Rentals\Controllers\Frontend'], function()
             {
-                Route::group(['prefix' => '/jobs'], function()
+                Route::group(['prefix' => '/rentals'], function()
                 {
-                    Route::get('/', 'JobsController@index');
-                    Route::get('job-titles', 'JobsController@listJobTitles');
-                    Route::get('job-stats', 'JobsController@listJobTitleStats');
-                    Route::get('employer-data', 'JobsController@getEmployerData');
+                    Route::get('/', 'RentalsController@index');
                 });
             });
         },
@@ -304,10 +298,10 @@ return [
 		'admin' => [
 
 			[
-				'slug'  => 'admin-citysnap-jobs',
-				'name'  => 'Jobs',
-				'class' => 'fa fa-money',
-				'uri'   => 'jobs',
+				'slug'  => 'admin-citysnap-rentals',
+				'name'  => 'Rentals',
+				'class' => 'fa fa-home',
+				'uri'   => 'rentals',
 			],
 
 		],
@@ -315,10 +309,10 @@ return [
 		'main' => [
 
 			[
-				'slug'  => 'main-citysnap-jobs',
-				'name'  => 'Jobs',
-				'class' => 'fa fa-money',
-				'uri'   => 'jobs',
+				'slug'  => 'main-citysnap-rentals',
+				'name'  => 'Rentals',
+				'class' => 'fa fa-home',
+				'uri'   => 'rentals',
 			],
 
 		],
