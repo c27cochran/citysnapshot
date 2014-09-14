@@ -1,1 +1,1 @@
-Platform is an application base on Laravel.
+Find your better life

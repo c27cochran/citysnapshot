@@ -40,7 +40,7 @@ return [
 		|
 		*/
 
-		'title' => 'Platform',
+		'title' => 'CitySnap',
 
 		/*
 		|--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
 		|
 		*/
 
-		'email' => null,
+		'email' => 'carter.cochran@gmail.com',
 
 		/*
 		|--------------------------------------------------------------------------
@@ -63,7 +63,7 @@ return [
 		|
 		*/
 
-		'copyright' => 'Copyright (c) 2011-2014, Cartalyst LLC',
+		'copyright' => 'Copyright (c) 2014, CitySnap Inc.',
 
 	],
 
