@@ -1,0 +1,7 @@
+.panel td {
+	padding: 15px !important;
+}
+
+#modal-migration .modal-dialog {
+	width: 900px !important;
+}
