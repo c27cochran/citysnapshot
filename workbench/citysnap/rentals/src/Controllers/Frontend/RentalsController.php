@@ -1,10 +1,10 @@
-<?php namespace Citysnap\Rentals\Controllers\Admin;
+<?php namespace Citysnap\Rentals\Controllers\Frontend;
 
-use Platform\Admin\Controllers\Admin\AdminController;
+use Platform\Foundation\Controllers\BaseController;
 use View;
 
 
-class RentalsController extends AdminController {
+class RentalsController extends BaseController {
 
     /**
      * Return the main view.
