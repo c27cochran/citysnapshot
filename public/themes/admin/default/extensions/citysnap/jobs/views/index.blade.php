@@ -26,6 +26,13 @@
 
             $.getJSON('jobs/job-titles?jc='+jc_value+'&minRating='+mr_value, function(data) {
 
+                if (data.response.countReturned = "0") {
+
+                    var noData = "<h4>No Data</h4>";
+                    $(noData).appendTo("#no-employer-data");
+                    $("#spinner").hide();
+                };
+
                 var empty_option = "<option value=''>Select a job</option>";
                 $(empty_option).appendTo("#jt");
 
@@ -186,6 +193,7 @@ if (!isset($_GET['id'])) { ?>
             <tbody></tbody>
         </table>
     </div>
+    <span id="no-employer-data"></span>
 
     <br>
 

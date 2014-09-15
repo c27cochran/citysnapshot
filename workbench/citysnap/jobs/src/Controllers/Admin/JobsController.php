@@ -31,7 +31,7 @@ class JobsController extends AdminController {
 
         $minRating = $_GET['minRating'];
 
-        $json_url = 'http://api.glassdoor.com/api/api.htm?t.p=24413&t.k=eaqHaPANkyM&userip=&useragent=&format=json&v=1&action=jobs-stats&returnStates=true&admLevelRequested=1&city=Austin&state=Texas&returnJobTitles=true&jobType=fulltime&jc='.$categoryNumber.'&minRating='.$minRating.'&returnEmployers=true';
+        $json_url = 'http://api.glassdoor.com/api/api.htm?t.p=24413&t.k=eaqHaPANkyM&userip=&useragent=&format=json&v=1&action=jobs-stats&returnStates=true&admLevelRequested=1&city=Austin&state=Texas&returnJobTitles=true&r=20&jobType=fulltime&jc='.$categoryNumber.'&minRating='.$minRating.'&returnEmployers=true';
 
         $str = file_get_contents($json_url);
 
