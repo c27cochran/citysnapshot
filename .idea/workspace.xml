@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2857a7ee-fa84-4614-bbac-605bf59ede69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/citysnap/rentals/src/Controllers/Frontend/RentalsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/citysnap/rentals/src/Controllers/Admin/RentalsController.php" afterPath="$PROJECT_DIR$/workbench/citysnap/rentals/src/Controllers/Admin/RentalsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="citysnapshot.iws" />
@@ -40,10 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/admin/default/extensions/platform/admin/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="4" selection-start="9422" selection-end="9422" vertical-scroll-proportion="0.6745562" vertical-offset="3993" max-vertical-offset="4500">
+            <state line="289" column="4" selection-start="9422" selection-end="9422" vertical-scroll-proportion="-6.84" vertical-offset="3993" max-vertical-offset="4500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="34" selection-start="70" selection-end="70" vertical-scroll-proportion="0.1724138" vertical-offset="0" max-vertical-offset="348">
               <folding />
             </state>
           </provider>
@@ -113,6 +121,7 @@
         <option value="$PROJECT_DIR$/public/themes/admin/default/extensions/citysnap/rentals/views/index.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/admin/default/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/admin/default/extensions/platform/admin/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -1087,7 +1096,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1122,13 +1131,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/content/synopsis.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extensions/platform/admin/src/Controllers/Admin/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.14722754" vertical-offset="77" max-vertical-offset="600">
@@ -1480,7 +1482,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/admin/default/extensions/platform/admin/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="4" selection-start="9422" selection-end="9422" vertical-scroll-proportion="0.6745562" vertical-offset="3993" max-vertical-offset="4500">
+        <state line="289" column="4" selection-start="9422" selection-end="9422" vertical-scroll-proportion="-6.84" vertical-offset="3993" max-vertical-offset="4500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="70" selection-end="70" vertical-scroll-proportion="0.1724138" vertical-offset="0" max-vertical-offset="348">
           <folding />
         </state>
       </provider>
